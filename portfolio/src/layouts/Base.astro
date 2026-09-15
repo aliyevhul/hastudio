@@ -37,6 +37,12 @@ const navLinks = [
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap"
     />
+    <!-- Critical, inline, and last in the head: guarantees the dark ground even
+         before the stylesheet loads and regardless of any host reset. -->
+    <style is:inline>
+      html, body { background-color: #0b0c0e !important; color: #edecea; }
+      :root { color-scheme: dark; }
+    </style>
   </head>
 
   <body>

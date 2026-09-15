@@ -19,7 +19,16 @@
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
   }
-  body {
+  /* Dark is the only theme. The html-level selectors are deliberate: a plain
+     `body` rule loses to a host reset that also targets `body` (the artifact
+     preview shell does exactly that, and the page came out white). */
+  :root {
+    color-scheme: dark;
+  }
+  html {
+    background-color: var(--color-ink);
+  }
+  html body {
     background-color: var(--color-ink);
     color: var(--color-paper);
     font-family: var(--font-sans);
