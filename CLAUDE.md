@@ -30,7 +30,9 @@ from the HRMS/AIMP work. Do not mix the two.
 
 `portfolio/` is Huseyn Aliyev's own site (Astro + Tailwind, AZ at `/`, EN at `/en/`).
 All copy and pricing lives in `src/i18n/content.ts` — change wording there, never in
-the components. The dark theme with the lime accent is the approved default; don't
+the components. **Voice: first-person plural in both languages** — "we build" / "qururuq",
+never "I build" / "qururam". The only exceptions are lines spoken by the client
+(the "I want this" buttons, "Can I edit the site myself?"). The dark theme with the lime accent is the approved default; don't
 replace the palette or add a light mode unless asked.
 
 ## Stack defaults (unless the user says otherwise)

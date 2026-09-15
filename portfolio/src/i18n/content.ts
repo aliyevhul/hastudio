@@ -42,14 +42,14 @@ export const content = {
       eyebrow: 'Bakıda sayt hazırlanması',
       title: 'Biznesinizi axtaranlar sizi tapmalıdır.',
       lede:
-        'Kiçik biznes üçün səliqəli, sürətli və mobildə düzgün işləyən sayt qururam. Şablon yığmıram — sizin işinizə uyğun qururam və canlıya çıxarıram.',
+        'Kiçik biznes üçün səliqəli, sürətli və mobildə düzgün işləyən sayt qururuq. Şablon yığmırıq — sizin işinizə uyğun qururuq və canlıya çıxarırıq.',
       primary: 'Pulsuz danışaq',
       secondary: 'Paketlərə bax',
       points: [
         'Adətən 5–10 gün ərzində canlıda',
         'Telefonda mükəmməl görünür',
         'Çoxdilli — AZ, RU, EN və daha çox',
-        'Domen, hostinq, quraşdırma — mənim üzərimdə',
+        'Domen, hostinq, quraşdırma — bizim üzərimizdə',
       ],
     },
     problem: {
@@ -68,15 +68,15 @@ export const content = {
         {
           title: 'Kimsə başladı, yarımçıq qoydu',
           body:
-            'Ödəniş etdiniz, nəticə yoxdur, əlaqə kəsilib. Mən sabit qiymət və aydın müddətlə işləyirəm, hər mərhələni göstərirəm.',
+            'Ödəniş etdiniz, nəticə yoxdur, əlaqə kəsilib. Biz sabit qiymət və aydın müddətlə işləyirik, hər mərhələni göstəririk.',
         },
       ],
     },
     services: {
       eyebrow: 'Paketlər',
-      title: 'Nə qururam',
+      title: 'Nə qururuq',
       lede:
-        'Qiymətlər başlanğıc qiymətidir. Dəqiq rəqəmi 15 dəqiqəlik söhbətdən sonra, yazılı şəkildə verirəm — sonradan artan “gizli” məbləğ olmur.',
+        'Qiymətlər başlanğıc qiymətidir. Dəqiq rəqəmi 15 dəqiqəlik söhbətdən sonra, yazılı şəkildə veririk — sonradan artan “gizli” məbləğ olmur.',
       // TODO: THESE PRICES ARE PLACEHOLDERS. Set your own before publishing.
       packages: [
         {
@@ -126,13 +126,13 @@ export const content = {
         },
       ],
       note:
-        'Hər paketə daxildir: mobil uyğunluq, SSL (kilid işarəsi), sürət optimizasiyası və canlıya çıxarma. Çoxdilli sayt istənilən paketə əlavə oluna bilər — BUTA otelinin saytını dörd dildə qurmuşam.',
+        'Hər paketə daxildir: mobil uyğunluq, SSL (kilid işarəsi), sürət optimizasiyası və canlıya çıxarma. Çoxdilli sayt istənilən paketə əlavə oluna bilər — BUTA otelinin saytını dörd dildə qurmuşuq.',
     },
     extras: {
       eyebrow: 'Dizayn',
       title: 'Brend dizaynı — sayt ilə eyni üslubda',
       lede:
-        'Çox biznesin loqosu yoxdur, ya da hər yerdə fərqli görünür: saytda bir cür, Instagramda başqa cür, vizit kartda üçüncü cür. Bunu da düzəldirəm — istər saytla birlikdə, istər ayrıca.',
+        'Çox biznesin loqosu yoxdur, ya da hər yerdə fərqli görünür: saytda bir cür, Instagramda başqa cür, vizit kartda üçüncü cür. Bunu da düzəldirik — istər saytla birlikdə, istər ayrıca.',
       // TODO: THESE PRICES ARE PLACEHOLDERS. Set your own before publishing.
       items: [
         {
@@ -143,7 +143,7 @@ export const content = {
         {
           name: 'Sosial şəbəkə şablonları',
           price: '150 ₼-dən',
-          body: 'Instagram post və story şablonları. Sizə redaktə oluna bilən fayl verirəm — hər paylaşım üçün dizaynerə qayıtmırsınız.',
+          body: 'Instagram post və story şablonları. Sizə redaktə oluna bilən fayl veririk — hər paylaşım üçün dizaynerə qayıtmırsınız.',
         },
         {
           name: 'Çap materialları',
@@ -156,7 +156,7 @@ export const content = {
           body: 'Loqonun necə (və necə yox) istifadə olunacağı, rənglər, şriftlər, boşluqlar — bir sənəddə. Komandanız dəyişəndə brend dağılmır.',
         },
       ],
-      note: 'Saytla birlikdə sifariş edəndə dizaynı paketə güzəştlə əlavə edirəm.',
+      note: 'Saytla birlikdə sifariş edəndə dizaynı paketə güzəştlə əlavə edirik.',
     },
     process: {
       eyebrow: 'Proses',
@@ -176,9 +176,9 @@ export const content = {
         },
         {
           n: '03',
-          title: 'Qururam və göstərirəm',
+          title: 'Qururuq və göstəririk',
           body:
-            'İş gedişində linki görürsünüz. İki dəfə pulsuz düzəliş — rəyinizi deyirsiniz, tətbiq edirəm.',
+            'İş gedişində linki görürsünüz. İki dəfə pulsuz düzəliş — rəyinizi deyirsiniz, tətbiq edirik.',
         },
         {
           n: '04',
@@ -190,7 +190,7 @@ export const content = {
     },
     work: {
       eyebrow: 'İşlər',
-      title: 'Nə qurmuşam',
+      title: 'Nə qurmuşuq',
       lede:
         'Hər layihədə problem, gördüyüm iş və nəticə.',
       // TODO: replace these with your real projects. Delete the ones you don't have.
@@ -215,7 +215,7 @@ export const content = {
           title: 'Layihəniz burada ola bilər',
           tag: 'Boş yer',
           body:
-            'İlk müştərilərim üçün qiymətdə güzəşt edirəm — əvəzində işi portfelimdə göstərmək icazəsi.',
+            'İlk müştərilərimiz üçün qiymətdə güzəşt edirik — əvəzində işi portfelimizdə göstərmək icazəsi.',
           result: 'Yer var',
           href: '',
         },
@@ -231,19 +231,19 @@ export const content = {
         },
         {
           q: 'Mətnləri və şəkilləri kim hazırlayır?',
-          a: 'Sizdə varsa, istifadə edirik. Yoxdursa, mən ilkin variantı yazıram, siz təsdiqləyirsiniz. Şəkil üçün keyfiyyətli stok və ya sizin fotolarınız.',
+          a: 'Sizdə varsa, istifadə edirik. Yoxdursa, ilkin variantı biz yazırıq, siz təsdiqləyirsiniz. Şəkil üçün keyfiyyətli stok və ya sizin fotolarınız.',
         },
         {
           q: 'Domen və hostinq nə qədərdir?',
-          a: 'Domen ildə təxminən 20–40 ₼, hostinq çox vaxt kiçik saytlar üçün pulsuz plana sığır. Bunlar mənim qiymətimə daxil deyil, amma quraşdırmasını mən edirəm və hesablar sizin adınıza olur.',
+          a: 'Domen ildə təxminən 20–40 ₼, hostinq çox vaxt kiçik saytlar üçün pulsuz plana sığır. Bunlar bizim qiymətimizə daxil deyil, amma quraşdırmasını biz edirik və hesablar sizin adınıza olur.',
         },
         {
           q: 'Sonradan özüm dəyişiklik edə bilərəmmi?',
-          a: 'Bəli. İstəsəniz, mətn və şəkilləri özünüz dəyişə biləsiniz deyə sadə idarə paneli qururam və necə istifadə olunduğunu göstərirəm.',
+          a: 'Bəli. İstəsəniz, mətn və şəkilləri özünüz dəyişə biləsiniz deyə sadə idarə paneli qururuq və necə istifadə olunduğunu göstəririk.',
         },
         {
           q: 'Təhvildən sonra dəstək varmı?',
-          a: 'İlk 30 gün xırda düzəlişlər pulsuzdur. Sonrası üçün aylıq baxım paketi təklif edirəm — məcburi deyil.',
+          a: 'İlk 30 gün xırda düzəlişlər pulsuzdur. Sonrası üçün aylıq baxım paketi təklif edirik — məcburi deyil.',
         },
         {
           q: 'Ödəniş necə olur?',
@@ -255,7 +255,7 @@ export const content = {
       eyebrow: 'Əlaqə',
       title: 'Saytınızdan danışaq',
       lede:
-        'Biznesinizi qısa yazın — bir iş günü ərzində cavab verirəm. Söhbət pulsuzdur, satış təzyiqi yoxdur.',
+        'Biznesinizi qısa yazın — bir iş günü ərzində cavab veririk. Söhbət pulsuzdur, satış təzyiqi yoxdur.',
       form: {
         name: 'Adınız',
         contact: 'E-poçt və ya nömrə',
@@ -295,7 +295,7 @@ export const content = {
       eyebrow: 'Web design & development, Baku',
       title: 'People are looking for your business. Let them find it.',
       lede:
-        'I build clean, fast websites for small businesses — built for your business, not dropped from a template, and taken all the way to live.',
+        'We build clean, fast websites for small businesses — built for your business, not dropped from a template, and taken all the way to live.',
       primary: "Let's talk — free",
       secondary: 'See packages',
       points: [
@@ -321,13 +321,13 @@ export const content = {
         {
           title: 'Someone started it and vanished',
           body:
-            'You paid, nothing shipped, they stopped replying. I work to a fixed price and a stated deadline, and you see every stage.',
+            'You paid, nothing shipped, they stopped replying. We work to a fixed price and a stated deadline, and you see every stage.',
         },
       ],
     },
     services: {
       eyebrow: 'Packages',
-      title: 'What I build',
+      title: 'What we build',
       lede:
         'Prices are starting points. You get the exact number in writing after a 15-minute call — no figure that quietly grows later.',
       // TODO: THESE PRICES ARE PLACEHOLDERS. Set your own before publishing.
@@ -379,13 +379,13 @@ export const content = {
         },
       ],
       note:
-        'Every package includes: mobile layout, SSL (the padlock), speed work, and going live. A multilingual site can be added to any package — I built the BUTA hotel site in four languages.',
+        'Every package includes: mobile layout, SSL (the padlock), speed work, and going live. A multilingual site can be added to any package — we built the BUTA hotel site in four languages.',
     },
     extras: {
       eyebrow: 'Design',
       title: 'Brand design, matching the site',
       lede:
-        'Plenty of businesses have no logo, or one that looks different everywhere: one way on the site, another on Instagram, a third on the business card. I fix that too — alongside a site or on its own.',
+        'Plenty of businesses have no logo, or one that looks different everywhere: one way on the site, another on Instagram, a third on the business card. We fix that too — alongside a site or on its own.',
       // TODO: THESE PRICES ARE PLACEHOLDERS. Set your own before publishing.
       items: [
         {
@@ -429,22 +429,22 @@ export const content = {
         },
         {
           n: '03',
-          title: 'I build it in the open',
+          title: 'We build it in the open',
           body:
-            'You get a link while it is being built. Two rounds of revisions included — you tell me, I fix it.',
+            'You get a link while it is being built. Two rounds of revisions included — you tell us, we fix it.',
         },
         {
           n: '04',
           title: 'We go live',
           body:
-            'Domain, hosting, Google. Final 50%. You keep every login — the site is yours, not rented from me.',
+            'Domain, hosting, Google. Final 50%. You keep every login — the site is yours, not rented from us.',
         },
       ],
     },
     work: {
       eyebrow: 'Work',
-      title: 'What I have built',
-      lede: 'The problem, what I did, and what came of it.',
+      title: 'What we have built',
+      lede: 'The problem, what we did, and what came of it.',
       // TODO: replace these with your real projects. Delete the ones you don't have.
       items: [
         {
@@ -467,7 +467,7 @@ export const content = {
           title: 'Your project could go here',
           tag: 'Open slot',
           body:
-            'I discount my first few clients in exchange for permission to show the work in this portfolio.',
+            'We discount our first few clients in exchange for permission to show the work in this portfolio.',
           result: 'Slot open',
           href: '',
         },
@@ -483,19 +483,19 @@ export const content = {
         },
         {
           q: 'Who writes the text and supplies photos?',
-          a: 'If you have them, we use them. If not, I draft the text and you approve it, and we use your photos or good stock images.',
+          a: 'If you have them, we use them. If not, we draft the text and you approve it, and we use your photos or good stock images.',
         },
         {
           q: 'What do domain and hosting cost?',
-          a: 'A domain is roughly 20–40 ₼ a year; hosting is often free for a small site. These are not in my price, but I set them up and the accounts are in your name.',
+          a: 'A domain is roughly 20–40 ₼ a year; hosting is often free for a small site. These are not in our price, but we set them up and the accounts are in your name.',
         },
         {
           q: 'Can I edit the site myself afterwards?',
-          a: 'Yes. If you want it, I add a simple admin panel for text and images, and walk you through using it.',
+          a: 'Yes. If you want it, we add a simple admin panel for text and images, and walk you through using it.',
         },
         {
           q: 'Is there support after handover?',
-          a: 'Small fixes are free for the first 30 days. After that I offer a monthly maintenance plan — optional, never required.',
+          a: 'Small fixes are free for the first 30 days. After that we offer a monthly maintenance plan — optional, never required.',
         },
         {
           q: 'How does payment work?',
@@ -507,7 +507,7 @@ export const content = {
       eyebrow: 'Contact',
       title: "Let's talk about your site",
       lede:
-        'Tell me briefly about your business — I reply within one working day. The call is free and there is no sales pressure.',
+        'Tell us briefly about your business — we reply within one working day. The call is free and there is no sales pressure.',
       form: {
         name: 'Your name',
         contact: 'Email or phone',
@@ -516,7 +516,7 @@ export const content = {
         submit: 'Send',
         note: 'Send opens your email app.',
       },
-      direct: 'Or reach me directly:',
+      direct: 'Or reach us directly:',
     },
     footer: {
       tagline: 'Websites for small business.',
