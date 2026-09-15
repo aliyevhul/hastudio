@@ -47,6 +47,7 @@ export const content = {
       points: [
         'Adətən 5–10 gün ərzində canlıda',
         'Telefonda mükəmməl görünür',
+        'Çoxdilli — AZ, RU, EN və daha çox',
         'Domen, hostinq, quraşdırma — mənim üzərimdə',
       ],
     },
@@ -86,6 +87,7 @@ export const content = {
             'Xidmətlər, qiymət, ünvan, xəritə',
             'WhatsApp və zəng düymələri',
             'Mobil üçün qurulub',
+            'İkinci dil — istəyə görə',
             'Domen və hostinq quraşdırması',
           ],
           cta: 'Bunu istəyirəm',
@@ -99,6 +101,7 @@ export const content = {
             '4–6 səhifə (Ana, Haqqımızda, Xidmətlər, Əlaqə…)',
             'Müraciət formu — birbaşa e-poçtunuza',
             'Google-da tapılmaq üçün əsas SEO',
+            'Çoxdilli qurulum (AZ / RU / EN) — istəyə görə',
             'Google Xəritə və Analytics',
             'Özünüz mətn dəyişə biləsiniz deyə idarə paneli (istəyə görə)',
           ],
@@ -113,6 +116,7 @@ export const content = {
             'Məhsul / menyu kataloqu',
             'Səbət və onlayn sifariş',
             'Onlayn ödəniş inteqrasiyası',
+            'Çoxdilli kataloq və sifariş axını',
             'Sifarişlərin idarə paneli',
             'İlk ay dəstək daxildir',
           ],
@@ -121,7 +125,7 @@ export const content = {
         },
       ],
       note:
-        'Hər paketə daxildir: mobil uyğunluq, SSL (kilid işarəsi), sürət optimizasiyası və canlıya çıxarma.',
+        'Hər paketə daxildir: mobil uyğunluq, SSL (kilid işarəsi), sürət optimizasiyası və canlıya çıxarma. Çoxdilli sayt istənilən paketə əlavə oluna bilər — BUTA otelinin saytını dörd dildə qurmuşam.',
     },
     process: {
       eyebrow: 'Proses',
@@ -265,6 +269,7 @@ export const content = {
       points: [
         'Live in 5–10 days, typically',
         'Looks right on a phone',
+        'Multilingual — AZ, RU, EN and more',
         'Domain, hosting, setup — handled',
       ],
     },
@@ -304,6 +309,7 @@ export const content = {
             'Services, prices, address, map',
             'WhatsApp and call buttons',
             'Built mobile-first',
+            'A second language — optional',
             'Domain and hosting set up',
           ],
           cta: 'I want this',
@@ -317,6 +323,7 @@ export const content = {
             '4–6 pages (Home, About, Services, Contact…)',
             'Enquiry form straight to your inbox',
             'Core SEO so Google can find you',
+            'Multilingual setup (AZ / RU / EN) — optional',
             'Google Maps and Analytics',
             'Optional admin panel so you can edit text yourself',
           ],
@@ -331,6 +338,7 @@ export const content = {
             'Product or menu catalogue',
             'Cart and online ordering',
             'Payment integration',
+            'Multilingual catalogue and checkout',
             'Order dashboard',
             'First month of support included',
           ],
@@ -339,7 +347,7 @@ export const content = {
         },
       ],
       note:
-        'Every package includes: mobile layout, SSL (the padlock), speed work, and going live.',
+        'Every package includes: mobile layout, SSL (the padlock), speed work, and going live. A multilingual site can be added to any package — I built the BUTA hotel site in four languages.',
     },
     process: {
       eyebrow: 'Process',
