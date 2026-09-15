@@ -74,12 +74,12 @@ const navLinks = [
           <a
             href={otherHref}
             aria-label={t.nav.switchLabel}
-            class="rounded-full border border-line px-3 py-1.5 text-xs font-semibold text-muted transition-colors hover:border-accent hover:text-paper"
+            class="lang-toggle rounded-full border border-line px-3 py-1.5 text-xs font-semibold text-muted transition-all duration-200 ease-out hover:border-accent hover:bg-surface-2 hover:text-paper active:scale-95 active:duration-75"
             >{t.nav.switch}</a
           >
           <a
             href="#contact"
-            class="hidden rounded-full bg-accent px-4 py-2 text-sm font-semibold text-ink transition-transform hover:-translate-y-px sm:inline-block"
+            class="hidden rounded-full bg-accent px-4 py-2 text-sm font-semibold text-ink transition-all duration-200 ease-out hover:-translate-y-px hover:shadow-[0_8px_20px_-10px_var(--color-accent)] active:translate-y-0 active:scale-[0.97] active:duration-75 sm:inline-block"
             >{t.nav.cta}</a
           >
           <button
@@ -151,6 +151,17 @@ const navLinks = [
           if (panel) panel.hidden = true;
         })
       );
+
+      // Language switch: carry the section you are reading across to the other
+      // language, so AZ -> EN drops you back where you were instead of at the top.
+      document.querySelector('.lang-toggle')?.addEventListener('click', (e) => {
+        const link = e.currentTarget as HTMLAnchorElement;
+        let current = '';
+        document.querySelectorAll('section[id]').forEach((sec) => {
+          if (sec.getBoundingClientRect().top <= 120) current = sec.id;
+        });
+        if (current) link.href = link.getAttribute('href')!.split('#')[0] + '#' + current;
+      });
 
       // Scroll reveal.
       const io = new IntersectionObserver(
