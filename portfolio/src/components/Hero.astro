@@ -1,0 +1,47 @@
+---
+import { getContent, site, type Lang } from '../i18n/content';
+const { lang } = Astro.props as { lang: Lang };
+const t = getContent(lang).hero;
+---
+<section class="relative overflow-hidden pt-32 pb-20 sm:pt-40 sm:pb-28">
+  <!-- soft accent glow behind the headline -->
+  <div
+    aria-hidden="true"
+    class="pointer-events-none absolute -top-40 left-1/2 h-[28rem] w-[46rem] max-w-[120vw] -translate-x-1/2 rounded-full opacity-[0.16] blur-3xl"
+    style="background: radial-gradient(closest-side, var(--color-accent), transparent);"
+  ></div>
+
+  <div class="container-x relative">
+    <p class="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1 text-xs font-medium text-muted">
+      <span class="h-1.5 w-1.5 rounded-full bg-accent"></span>{t.eyebrow}
+    </p>
+
+    <h1 class="mt-6 max-w-3xl font-display text-4xl font-extrabold leading-[1.08] tracking-tight sm:text-6xl">
+      {t.title}
+    </h1>
+
+    <p class="mt-6 max-w-xl text-lg leading-relaxed text-muted">{t.lede}</p>
+
+    <div class="mt-9 flex flex-wrap items-center gap-3">
+      <a href="#contact"
+        class="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-ink transition-transform hover:-translate-y-0.5">
+        {t.primary}
+      </a>
+      <a href="#services"
+        class="rounded-full border border-line px-6 py-3 text-sm font-semibold text-paper transition-colors hover:border-accent">
+        {t.secondary}
+      </a>
+    </div>
+
+    <ul class="mt-12 grid gap-3 sm:grid-cols-3">
+      {t.points.map((p) => (
+        <li class="flex items-start gap-2.5 text-sm text-muted">
+          <svg class="mt-0.5 shrink-0 text-accent" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8.5l3.2 3.2L13 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          {p}
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,18 @@
+---
+import { getContent, type Lang } from '../i18n/content';
+const { lang } = Astro.props as { lang: Lang };
+const t = getContent(lang).problem;
+---
+<section class="border-y border-line bg-surface/40 py-20">
+  <div class="container-x reveal">
+    <h2 class="font-display text-2xl font-extrabold tracking-tight sm:text-3xl">{t.title}</h2>
+    <div class="mt-10 grid gap-6 md:grid-cols-3">
+      {t.items.map((it) => (
+        <div class="rounded-2xl border border-line bg-surface p-6">
+          <h3 class="font-display text-base font-bold">{it.title}</h3>
+          <p class="mt-3 text-sm leading-relaxed text-muted">{it.body}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

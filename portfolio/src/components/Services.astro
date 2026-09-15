@@ -1,0 +1,50 @@
+---
+import SectionHead from './SectionHead.astro';
+import { getContent, type Lang } from '../i18n/content';
+const { lang } = Astro.props as { lang: Lang };
+const t = getContent(lang).services;
+---
+<section id="services" class="scroll-mt-20 py-24">
+  <div class="container-x reveal">
+    <SectionHead eyebrow={t.eyebrow} title={t.title} lede={t.lede} />
+
+    <div class="mt-12 grid gap-6 lg:grid-cols-3">
+      {t.packages.map((p) => (
+        <div
+          class={`relative flex flex-col rounded-2xl border p-7 ${
+            p.featured ? 'border-accent bg-surface-2' : 'border-line bg-surface'
+          }`}
+        >
+          {p.featured && (
+            <span class="absolute -top-3 left-7 rounded-full bg-accent px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-ink">
+              {lang === 'az' ? 'Ən çox seçilən' : 'Most popular'}
+            </span>
+          )}
+          <h3 class="font-display text-lg font-extrabold">{p.name}</h3>
+          <p class="mt-1 text-sm text-muted">{p.for}</p>
+          <p class="mt-5 font-display text-3xl font-extrabold tracking-tight">{p.price}</p>
+
+          <ul class="mt-6 flex-1 space-y-3">
+            {p.items.map((i) => (
+              <li class="flex items-start gap-2.5 text-sm text-muted">
+                <svg class="mt-[3px] shrink-0 text-accent" width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M3 8.5l3.2 3.2L13 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                {i}
+              </li>
+            ))}
+          </ul>
+
+          <a
+            href="#contact"
+            class={`mt-7 rounded-full px-5 py-3 text-center text-sm font-semibold transition-transform hover:-translate-y-0.5 ${
+              p.featured ? 'bg-accent text-ink' : 'border border-line text-paper hover:border-accent'
+            }`}
+          >{p.cta}</a>
+        </div>
+      ))}
+    </div>
+
+    <p class="mt-8 text-sm text-muted">{t.note}</p>
+  </div>
+</section>
