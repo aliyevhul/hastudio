@@ -23,12 +23,13 @@ export const content = {
   az: {
     htmlLang: 'az',
     meta: {
-      title: 'Sayt hazırlanması — kiçik biznes üçün | ' + site.brand,
+      title: 'Sayt və brend dizaynı — kiçik biznes üçün | ' + site.brand,
       description:
-        'Kiçik və orta biznes üçün sürətli, mobil uyğun və Google-da tapılan saytlar. Sabit qiymət, aydın müddət, işlək nəticə.',
+        'Kiçik və orta biznes üçün sürətli, mobil uyğun və Google-da tapılan saytlar. Loqo və brend dizaynı da daxil. Sabit qiymət, aydın müddət, işlək nəticə.',
     },
     nav: {
       services: 'Xidmətlər',
+      design: 'Dizayn',
       process: 'Necə işləyirik',
       work: 'İşlər',
       faq: 'Suallar',
@@ -126,6 +127,36 @@ export const content = {
       ],
       note:
         'Hər paketə daxildir: mobil uyğunluq, SSL (kilid işarəsi), sürət optimizasiyası və canlıya çıxarma. Çoxdilli sayt istənilən paketə əlavə oluna bilər — BUTA otelinin saytını dörd dildə qurmuşam.',
+    },
+    extras: {
+      eyebrow: 'Dizayn',
+      title: 'Brend dizaynı — sayt ilə eyni üslubda',
+      lede:
+        'Çox biznesin loqosu yoxdur, ya da hər yerdə fərqli görünür: saytda bir cür, Instagramda başqa cür, vizit kartda üçüncü cür. Bunu da düzəldirəm — istər saytla birlikdə, istər ayrıca.',
+      // TODO: THESE PRICES ARE PLACEHOLDERS. Set your own before publishing.
+      items: [
+        {
+          name: 'Loqo və brend kimliyi',
+          price: '250 ₼-dən',
+          body: 'Loqo, rəng palitrası və şriftlər. Sayt, vizit kart və sosial şəbəkə — hamısı eyni ailədən görünür.',
+        },
+        {
+          name: 'Sosial şəbəkə şablonları',
+          price: '150 ₼-dən',
+          body: 'Instagram post və story şablonları. Sizə redaktə oluna bilən fayl verirəm — hər paylaşım üçün dizaynerə qayıtmırsınız.',
+        },
+        {
+          name: 'Çap materialları',
+          price: '100 ₼-dən',
+          body: 'Vizit kart, menyu, flayer, banner, lövhə. Mətbəəyə birbaşa göndərilə bilən, çapa hazır fayllar.',
+        },
+        {
+          name: 'Brend qaydaları',
+          price: '200 ₼-dən',
+          body: 'Loqonun necə (və necə yox) istifadə olunacağı, rənglər, şriftlər, boşluqlar — bir sənəddə. Komandanız dəyişəndə brend dağılmır.',
+        },
+      ],
+      note: 'Saytla birlikdə sifariş edəndə dizaynı paketə güzəştlə əlavə edirəm.',
     },
     process: {
       eyebrow: 'Proses',
@@ -245,12 +276,13 @@ export const content = {
   en: {
     htmlLang: 'en',
     meta: {
-      title: 'Websites for small business | ' + site.brand,
+      title: 'Websites & brand design for small business | ' + site.brand,
       description:
-        'Fast, mobile-first websites for small and medium businesses. Fixed price, clear timeline, actually shipped.',
+        'Fast, mobile-first websites for small and medium businesses, plus logo and brand design. Fixed price, clear timeline, actually shipped.',
     },
     nav: {
       services: 'Services',
+      design: 'Design',
       process: 'Process',
       work: 'Work',
       faq: 'FAQ',
@@ -348,6 +380,36 @@ export const content = {
       ],
       note:
         'Every package includes: mobile layout, SSL (the padlock), speed work, and going live. A multilingual site can be added to any package — I built the BUTA hotel site in four languages.',
+    },
+    extras: {
+      eyebrow: 'Design',
+      title: 'Brand design, matching the site',
+      lede:
+        'Plenty of businesses have no logo, or one that looks different everywhere: one way on the site, another on Instagram, a third on the business card. I fix that too — alongside a site or on its own.',
+      // TODO: THESE PRICES ARE PLACEHOLDERS. Set your own before publishing.
+      items: [
+        {
+          name: 'Logo and brand identity',
+          price: 'from 250 ₼',
+          body: 'Logo, colour palette and typefaces. Site, business card and social media all look like they come from the same family.',
+        },
+        {
+          name: 'Social media templates',
+          price: 'from 150 ₼',
+          body: 'Instagram post and story templates. You get editable files, so you are not going back to a designer for every post.',
+        },
+        {
+          name: 'Print materials',
+          price: 'from 100 ₼',
+          body: 'Business cards, menus, flyers, banners, signage. Print-ready files you can send straight to the printer.',
+        },
+        {
+          name: 'Brand guidelines',
+          price: 'from 200 ₼',
+          body: 'How the logo should and should not be used, colours, type, spacing — in one document. The brand survives your team changing.',
+        },
+      ],
+      note: 'Ordered together with a site, design goes onto the package at a discount.',
     },
     process: {
       eyebrow: 'Process',
