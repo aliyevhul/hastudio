@@ -18,7 +18,7 @@ const t = getContent(lang).contact;
 
     <!-- No backend yet: this opens the visitor's mail app. Swap the handler
          for Formspree / Web3Forms when you want real form submissions. -->
-    <form id="contactForm" class="rounded-2xl border border-line bg-surface p-7">
+    <form id="contactForm" class="rounded-2xl border border-line bg-surface p-7 transition-all duration-300 ease-out focus-within:border-accent focus-within:shadow-[0_0_0_1px_var(--color-accent),0_16px_40px_-20px_var(--color-accent)]">
       <label class="block text-sm font-medium" for="cf-name">{t.form.name}</label>
       <input id="cf-name" name="name" required
         class="mt-2 w-full rounded-lg border border-line bg-ink px-4 py-3 text-sm outline-none transition-colors focus:border-accent" />

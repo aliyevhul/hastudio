@@ -11,7 +11,7 @@ const t = getContent(lang).services;
     <div class="mt-12 grid gap-6 lg:grid-cols-3">
       {t.packages.map((p) => (
         <div
-          class={`relative flex flex-col rounded-2xl border p-7 ${
+          class={`relative flex flex-col rounded-2xl border p-7 transition-all duration-300 ease-out hover:border-accent hover:shadow-[0_0_0_1px_var(--color-accent),0_16px_40px_-20px_var(--color-accent)] ${
             p.featured ? 'border-accent bg-surface-2' : 'border-line bg-surface'
           }`}
         >
