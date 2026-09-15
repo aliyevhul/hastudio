@@ -32,7 +32,11 @@ from the HRMS/AIMP work. Do not mix the two.
 All copy and pricing lives in `src/i18n/content.ts` — change wording there, never in
 the components. **Voice: first-person plural in both languages** — "we build" / "qururuq",
 never "I build" / "qururam". The only exceptions are lines spoken by the client
-(the "I want this" buttons, "Can I edit the site myself?"). The dark theme with the lime accent is the approved default; don't
+(the "I want this" buttons, "Can I edit the site myself?").
+
+The header stays **Huseyn Aliyev** — a personal name, by decision, not a studio
+name. Don't propose rebranding it. The personal name plus the "we" voice is
+deliberate: a named person clients can hold responsible, backed by a team. The dark theme with the lime accent is the approved default; don't
 replace the palette or add a light mode unless asked.
 
 ## Stack defaults (unless the user says otherwise)
