@@ -161,6 +161,14 @@ export const content = {
       // TODO: replace these with your real projects. Delete the ones you don't have.
       items: [
         {
+          title: 'BUTA Boutique Hotel, Tbilisi',
+          tag: 'Otel / rezervasiya',
+          body:
+            'Tbilisinin tarixi mərkəzində 13 otaqlı butik otel. Otaq kataloqu və qiymətlər, ilkin ödənişsiz rezervasiya formu (administrator təsdiqləyir), restoran menyusu, yol təlimatı və FAQ. Dörd dildə qurulub: ingilis, gürcü, rus və Azərbaycan.',
+          result: 'Canlıdır — 4 dil, birbaşa rezervasiya',
+          href: 'https://butatbilisi.com/',
+        },
+        {
           title: 'HR və davamiyyət platforması',
           tag: 'Daxili məhsul',
           body:
@@ -369,6 +377,14 @@ export const content = {
       lede: 'The problem, what I did, and what came of it.',
       // TODO: replace these with your real projects. Delete the ones you don't have.
       items: [
+        {
+          title: 'BUTA Boutique Hotel, Tbilisi',
+          tag: 'Hotel / bookings',
+          body:
+            'A 13-room boutique hotel in the historical centre of Tbilisi. Room catalogue with prices, a no-prepayment booking form the front desk confirms, restaurant menu, directions and FAQ. Built in four languages: English, Georgian, Russian and Azerbaijani.',
+          result: 'Live — 4 languages, direct bookings',
+          href: 'https://butatbilisi.com/',
+        },
         {
           title: 'HR & attendance platform',
           tag: 'Internal product',
