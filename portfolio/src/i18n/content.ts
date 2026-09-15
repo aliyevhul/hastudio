@@ -7,8 +7,7 @@
  */
 
 export const site = {
-  // TODO: your real name / brand name. Shows in the logo and the footer.
-  brand: 'Your Name',
+  brand: 'Huseyn Aliyev',
   // TODO: your real contact details.
   email: 'it@burma.az',
   phone: '+994 00 000 00 00',

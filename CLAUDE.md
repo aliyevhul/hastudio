@@ -26,6 +26,13 @@ from the HRMS/AIMP work. Do not mix the two.
 - Never publish or deploy anything client-facing without the user saying go.
 - Client names and details are private; don't send them to external services.
 
+## Portfolio site
+
+`portfolio/` is Huseyn Aliyev's own site (Astro + Tailwind, AZ at `/`, EN at `/en/`).
+All copy and pricing lives in `src/i18n/content.ts` — change wording there, never in
+the components. The dark theme with the lime accent is the approved default; don't
+replace the palette or add a light mode unless asked.
+
 ## Stack defaults (unless the user says otherwise)
 
 - Static/marketing sites: plain HTML + CSS, or Astro when it needs content collections.
