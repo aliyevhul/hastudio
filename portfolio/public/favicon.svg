@@ -1,4 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="8" fill="#0b0c0e"/>
-  <path d="M9 22V10h5.6c2.8 0 4.6 1.5 4.6 3.9 0 1.7-.9 2.9-2.4 3.4l3.2 4.7h-3.3l-2.8-4.2h-2v4.2H9Z" fill="#c8f24e"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <title>Huseyn Aliyev</title>
+  <rect width="128" height="128" rx="28" fill="#0b0c0e"/>
+  <!-- Heavier weights than the full mark: at 16px thin strokes disappear -->
+  <g transform="translate(20 28) scale(0.78)">
+    <rect x="10" y="20" width="13" height="60" fill="#c8f24e"/>
+    <rect x="40" y="20" width="13" height="60" fill="#c8f24e"/>
+    <polygon points="73,20 86,20 66,80 53,80" fill="#c8f24e"/>
+    <polygon points="73,20 86,20 106,80 93,80" fill="#c8f24e"/>
+    <rect x="10" y="43" width="86" height="13" fill="#c8f24e"/>
+  </g>
 </svg>

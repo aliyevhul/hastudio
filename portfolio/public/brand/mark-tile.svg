@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Huseyn Aliyev">
+  <title>Huseyn Aliyev — monogram tile</title>
+  <rect width="128" height="128" rx="30" fill="#0b0c0e"/>
+  <g transform="translate(18 26) scale(0.79)">
+    <rect x="14" y="24" width="10" height="52" fill="#c8f24e"/>
+    <rect x="40" y="24" width="10" height="52" fill="#c8f24e"/>
+    <polygon points="74,24 84,24 66,76 56,76" fill="#c8f24e"/>
+    <polygon points="74,24 84,24 102,76 92,76" fill="#c8f24e"/>
+    <rect x="14" y="45" width="81" height="10" fill="#c8f24e"/>
+  </g>
+</svg>
