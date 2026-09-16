@@ -1,30 +1,35 @@
-# Instagram carousel — UX/UI, 5 slides
+# Instagram carousel v2 — hər slaydın öz dizayn sistemi
 
-## Caption (kopyalayıb yapışdırın)
+Fayllar: `ha-carousel-v2-1..5.png` (1080×1080)
+Mənbə: `build2.py` → SVG → PNG (sharp). Şriftlər ~/.fonts-da olmalıdır.
 
-Kafe, klinika və mağaza — üçü də sayt istəyir, amma üçü də **eyni saytı** istəmir. 👇
+## Caption
 
-Şablon satan yerlər hamıya eyni quruluşu verir. Nəticə: kafenin menyusu üçüncü səhifədə gizlənir, klinikanın formu 11 xanadan ibarət olur, mağazada qiymət görünmür.
+Kafe, klinika və mağaza — üçü də sayt istəyir, amma üçü də eyni saytı istəmir.
 
-Biz hər layihədə bir sual veririk: **bu saytda müştəri nə etməlidir?** Cavab dizaynı qurur.
+Bu postun özü bunu göstərir: hər slayd ayrı palitra, ayrı şrift, ayrı quruluşla
+hazırlanıb. Çünki kafenin işi iştaha açmaqdır, klinikanın işi sakitləşdirməkdir,
+mağazanın işi isə seçimi asanlaşdırmaqdır.
 
-🖥 Vizit sayt — 300 ₼-dən
-🎨 Loqo və brend dizaynı — 200 ₼-dən
-⚡ 5–10 günə canlıda
+Hər layihədə bir sualla başlayırıq: bu saytda müştəri nə etməlidir?
+Cavab rəngi də, şrifti də, düymənin ölçüsünü də özü müəyyən edir.
 
-Yazın, pulsuz danışaq → 099 600 06 78
+🖥 Sayt hazırlanması
+🎨 Loqo və brend dizaynı
+🌐 AZ / RU / EN
 
-#sayt #saythazirlanmasi #vebsayt #webdesign #uxui #dizayn #baki #azerbaijan #brend #loqo #kiçikbiznes #hastudio
+Sualınız var? Yazın — məsləhət pulsuzdur.
+099 600 06 78
 
-## Slides
+#sayt #saythazirlanmasi #vebsayt #webdesign #uxui #uidesign #dizayn #brend #loqo
+#baki #azerbaijan #kiçikbiznes #hastudio
 
-| # | Mövzu | Əsas fikir |
-|---|-------|-----------|
-| 1 | Cover | Eyni şablon üç fərqli biznesə yaramır |
-| 2 | Kafe | Ən çox istənilən əməliyyat ən böyük düymədir |
-| 3 | Klinika | Hər əlavə xana müraciəti azaldır |
-| 4 | Mağaza | Sifariş üç toxunuşdan uzun olmasın |
-| 5 | CTA | Əlaqə + qiymət |
+## Slaydlar
 
-Regenerate: `python3 build.py` then render the SVGs with sharp (see git history).
-Requires the Inter font in ~/.fonts — Lato has no `ə` glyph.
+| # | Dizayn sistemi | Şrift | Prinsip |
+|---|----------------|-------|---------|
+| 1 | Açıq, redaksiya üslubu — palitraları qabaqcadan göstərir | Space Grotesk | Hər biznesin öz dili var |
+| 2 | Tünd qəhvəyi + kəhrəba, çap menyusu | Noto Serif + IBM Plex | Ən çox istənilən əməliyyat ən böyük düymədir |
+| 3 | Açıq, klinik, firuzəyi, çox boşluq | IBM Plex Sans | Hər əlavə xana müraciəti azaldır |
+| 4 | Neon sarı + çəhrayı, sıx grid | Space Grotesk + Manrope | Sifariş üç toxunuşdan uzun olmasın |
+| 5 | HA brend palitrası | Inter | Əlaqə |
