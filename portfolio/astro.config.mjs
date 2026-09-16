@@ -3,8 +3,11 @@ import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  // Free Cloudflare Pages URL for now; swap to https://hastudio.az once the
-  // domain is registered and pointed at this project.
-  site: 'https://hastudio.pages.dev',
+  // Free GitHub Pages hosting for now. When hastudio.az is registered and
+  // pointed here, change these two lines to:
+  //   site: 'https://hastudio.az',  base: '/'
+  // Every internal link is built from BASE_URL, so nothing else needs touching.
+  site: 'https://aliyevhul.github.io',
+  base: '/hastudio',
   vite: { plugins: [tailwindcss()] },
 });
