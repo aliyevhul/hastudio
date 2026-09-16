@@ -25,8 +25,7 @@ light mode unless Huseyn asks for it. Tune spacing and type freely.
 ## Before publishing — the TODO list
 
 1. `work.items` — replace with real projects, delete the filler.
-2. `site` in `astro.config.mjs` — your real domain.
-3. The contact form currently opens the visitor's mail app. For real submissions,
+2. The contact form currently opens the visitor's mail app. For real submissions,
    point it at Formspree / Web3Forms in `src/components/Contact.astro`.
 
 ## Logo
@@ -42,3 +41,9 @@ Geometry: 130 × 100 grid, strokes 11 units, glyph from y22 to y78. The bar's
 right end is cut on the slant of the A's outer leg so it finishes flush.
 The favicon is drawn separately with 14-unit strokes — the mark scaled to 16px
 loses its strokes.
+
+## Deploy
+
+The site is configured for `https://hastudio.az`. Register the domain, then
+point it at a static host (Cloudflare Pages or Netlify — both free at this
+size). Build with `npm run build`; the output is `dist/`.

@@ -3,7 +3,6 @@ import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  // TODO: set this to your real domain before deploying.
-  site: 'https://example.az',
+  site: 'https://hastudio.az',
   vite: { plugins: [tailwindcss()] },
 });
