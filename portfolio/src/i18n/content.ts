@@ -296,7 +296,7 @@ export const content = {
       title: 'People are looking for your business. Let them find it.',
       lede:
         'We build clean, fast websites for small businesses — built for your business, not dropped from a template, and taken all the way to live.',
-      primary: "Let's talk — free",
+      primary: "Let's talk",
       secondary: 'See packages',
       points: [
         'Live in 5–10 days, typically',
