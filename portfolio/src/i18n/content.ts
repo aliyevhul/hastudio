@@ -80,7 +80,7 @@ export const content = {
       packages: [
         {
           name: 'Vizit sayt',
-          price: '320 ₼-dən',
+          price: '300 ₼-dən',
           for: 'Salon, kafe, usta, kiçik xidmət',
           items: [
             'Bir səhifə, hər şey bir yerdə',
@@ -95,7 +95,7 @@ export const content = {
         },
         {
           name: 'Biznes sayt',
-          price: '720 ₼-dən',
+          price: '700 ₼-dən',
           for: 'Klinika, şirkət, mağaza, agentlik',
           items: [
             '4–6 səhifə (Ana, Haqqımızda, Xidmətlər, Əlaqə…)',
@@ -110,7 +110,7 @@ export const content = {
         },
         {
           name: 'Onlayn sifariş',
-          price: '1440 ₼-dən',
+          price: '1400 ₼-dən',
           for: 'Mağaza, restoran, rezervasiya',
           items: [
             'Məhsul / menyu kataloqu',
@@ -140,7 +140,7 @@ export const content = {
         },
         {
           name: 'Sosial şəbəkə şablonları',
-          price: '120 ₼-dən',
+          price: '100 ₼-dən',
           body: 'Instagram post və story şablonları. Sizə redaktə oluna bilən fayl veririk — hər paylaşım üçün dizaynerə qayıtmırsınız.',
         },
         {
@@ -150,7 +150,7 @@ export const content = {
         },
         {
           name: 'Brend qaydaları',
-          price: '160 ₼-dən',
+          price: '150 ₼-dən',
           body: 'Loqonun necə (və necə yox) istifadə olunacağı, rənglər, şriftlər, boşluqlar — bir sənəddə. Komandanız dəyişəndə brend dağılmır.',
         },
       ],
@@ -331,7 +331,7 @@ export const content = {
       packages: [
         {
           name: 'One-pager',
-          price: 'from 320 ₼',
+          price: 'from 300 ₼',
           for: 'Salons, cafés, tradespeople, small services',
           items: [
             'One page, everything in one place',
@@ -346,7 +346,7 @@ export const content = {
         },
         {
           name: 'Business site',
-          price: 'from 720 ₼',
+          price: 'from 700 ₼',
           for: 'Clinics, companies, shops, agencies',
           items: [
             '4–6 pages (Home, About, Services, Contact…)',
@@ -361,7 +361,7 @@ export const content = {
         },
         {
           name: 'Online orders',
-          price: 'from 1440 ₼',
+          price: 'from 1400 ₼',
           for: 'Shops, restaurants, bookings',
           items: [
             'Product or menu catalogue',
@@ -391,7 +391,7 @@ export const content = {
         },
         {
           name: 'Social media templates',
-          price: 'from 120 ₼',
+          price: 'from 100 ₼',
           body: 'Instagram post and story templates. You get editable files, so you are not going back to a designer for every post.',
         },
         {
@@ -401,7 +401,7 @@ export const content = {
         },
         {
           name: 'Brand guidelines',
-          price: 'from 160 ₼',
+          price: 'from 150 ₼',
           body: 'How the logo should and should not be used, colours, type, spacing — in one document. The brand survives your team changing.',
         },
       ],
