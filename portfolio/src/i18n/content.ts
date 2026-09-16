@@ -43,7 +43,7 @@ export const content = {
       title: 'Biznesinizi axtaranlar sizi tapmalıdır.',
       lede:
         'Kiçik biznes üçün səliqəli, sürətli və mobildə düzgün işləyən sayt qururuq. Şablon yığmırıq — sizin işinizə uyğun qururuq və canlıya çıxarırıq.',
-      primary: 'Pulsuz danışaq',
+      primary: 'Danışaq',
       secondary: 'Paketlərə bax',
       points: [
         'Adətən 5–10 gün ərzində canlıda',
