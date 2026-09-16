@@ -24,10 +24,9 @@ light mode unless Huseyn asks for it. Tune spacing and type freely.
 
 ## Before publishing — the TODO list
 
-1. `site.email`, `site.phone`, `site.phoneHref`, `site.whatsapp`.
-2. `work.items` — replace with real projects, delete the filler.
-3. `site` in `astro.config.mjs` — your real domain.
-4. The contact form currently opens the visitor's mail app. For real submissions,
+1. `work.items` — replace with real projects, delete the filler.
+2. `site` in `astro.config.mjs` — your real domain.
+3. The contact form currently opens the visitor's mail app. For real submissions,
    point it at Formspree / Web3Forms in `src/components/Contact.astro`.
 
 ## Logo

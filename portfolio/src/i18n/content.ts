@@ -8,11 +8,10 @@
 
 export const site = {
   brand: 'Huseyn Aliyev',
-  // TODO: your real contact details.
-  email: 'it@burma.az',
-  phone: '+994 00 000 00 00',
-  phoneHref: '+99400000000',
-  whatsapp: 'https://wa.me/99400000000',
+  email: 'hastudio.az@gmail.com',
+  phone: '+994 99 600 06 78',
+  phoneHref: '+994996000678',
+  whatsapp: 'https://wa.me/994996000678',
   github: 'https://github.com/',
   linkedin: 'https://www.linkedin.com/in/',
 } as const;
