@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116 100" role="img" aria-label="HA monogram">
-  <title>Huseyn Aliyev — HA monogram</title>
-  <!-- H stems -->
-  <rect x="14" y="24" width="10" height="52" fill="#c8f24e"/>
-  <rect x="40" y="24" width="10" height="52" fill="#c8f24e"/>
-  <!-- A: two slanted legs meeting at the apex -->
-  <polygon points="74,24 84,24 66,76 56,76" fill="#c8f24e"/>
-  <polygon points="74,24 84,24 102,76 92,76" fill="#c8f24e"/>
-  <!-- the shared bar: one stroke crosses both letters and ties them together -->
-  <rect x="14" y="45" width="81" height="10" fill="#c8f24e"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 100" role="img" aria-label="HA monogram"><title>Huseyn Aliyev — HA monogram</title><rect x="12" y="22.0" width="11" height="56.0" fill="#c8f24e"/><rect x="41" y="22.0" width="11" height="56.0" fill="#c8f24e"/><polygon points="84.0,22.0 93.0,22.0 69,78.0 58,78.0" fill="#c8f24e"/><polygon points="84.0,22.0 93.0,22.0 118.0,78.0 107.0,78.0" fill="#c8f24e"/><polygon points="12,44.0 102.82,44.0 107.73,55.0 12,55.0" fill="#c8f24e"/></svg>

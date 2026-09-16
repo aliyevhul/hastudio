@@ -30,3 +30,17 @@ light mode unless Huseyn asks for it. Tune spacing and type freely.
 4. `site` in `astro.config.mjs` — your real domain.
 5. The contact form currently opens the visitor's mail app. For real submissions,
    point it at Formspree / Web3Forms in `src/components/Contact.astro`.
+
+## Logo
+
+Source of truth is `public/brand/*.svg`. The PNGs in `public/brand/png/` are
+generated from them — regenerate rather than editing a PNG:
+
+```bash
+npm i --no-save sharp   # not a project dependency, just for exports
+```
+
+Geometry: 130 × 100 grid, strokes 11 units, glyph from y22 to y78. The bar's
+right end is cut on the slant of the A's outer leg so it finishes flush.
+The favicon is drawn separately with 14-unit strokes — the mark scaled to 16px
+loses its strokes.
