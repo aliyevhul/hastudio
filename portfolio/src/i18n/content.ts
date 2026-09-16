@@ -77,11 +77,10 @@ export const content = {
       title: 'Nə qururuq',
       lede:
         'Qiymətlər başlanğıc qiymətidir. Dəqiq rəqəmi 15 dəqiqəlik söhbətdən sonra, yazılı şəkildə veririk — sonradan artan “gizli” məbləğ olmur.',
-      // TODO: THESE PRICES ARE PLACEHOLDERS. Set your own before publishing.
       packages: [
         {
           name: 'Vizit sayt',
-          price: '400 ₼-dən',
+          price: '320 ₼-dən',
           for: 'Salon, kafe, usta, kiçik xidmət',
           items: [
             'Bir səhifə, hər şey bir yerdə',
@@ -96,7 +95,7 @@ export const content = {
         },
         {
           name: 'Biznes sayt',
-          price: '900 ₼-dən',
+          price: '720 ₼-dən',
           for: 'Klinika, şirkət, mağaza, agentlik',
           items: [
             '4–6 səhifə (Ana, Haqqımızda, Xidmətlər, Əlaqə…)',
@@ -111,7 +110,7 @@ export const content = {
         },
         {
           name: 'Onlayn sifariş',
-          price: '1800 ₼-dən',
+          price: '1440 ₼-dən',
           for: 'Mağaza, restoran, rezervasiya',
           items: [
             'Məhsul / menyu kataloqu',
@@ -133,26 +132,25 @@ export const content = {
       title: 'Brend dizaynı — sayt ilə eyni üslubda',
       lede:
         'Çox biznesin loqosu yoxdur, ya da hər yerdə fərqli görünür: saytda bir cür, Instagramda başqa cür, vizit kartda üçüncü cür. Bunu da düzəldirik — istər saytla birlikdə, istər ayrıca.',
-      // TODO: THESE PRICES ARE PLACEHOLDERS. Set your own before publishing.
       items: [
         {
           name: 'Loqo və brend kimliyi',
-          price: '250 ₼-dən',
+          price: '200 ₼-dən',
           body: 'Loqo, rəng palitrası və şriftlər. Sayt, vizit kart və sosial şəbəkə — hamısı eyni ailədən görünür.',
         },
         {
           name: 'Sosial şəbəkə şablonları',
-          price: '150 ₼-dən',
+          price: '120 ₼-dən',
           body: 'Instagram post və story şablonları. Sizə redaktə oluna bilən fayl veririk — hər paylaşım üçün dizaynerə qayıtmırsınız.',
         },
         {
           name: 'Çap materialları',
-          price: '100 ₼-dən',
+          price: '80 ₼-dən',
           body: 'Vizit kart, menyu, flayer, banner, lövhə. Mətbəəyə birbaşa göndərilə bilən, çapa hazır fayllar.',
         },
         {
           name: 'Brend qaydaları',
-          price: '200 ₼-dən',
+          price: '160 ₼-dən',
           body: 'Loqonun necə (və necə yox) istifadə olunacağı, rənglər, şriftlər, boşluqlar — bir sənəddə. Komandanız dəyişəndə brend dağılmır.',
         },
       ],
@@ -330,11 +328,10 @@ export const content = {
       title: 'What we build',
       lede:
         'Prices are starting points. You get the exact number in writing after a 15-minute call — no figure that quietly grows later.',
-      // TODO: THESE PRICES ARE PLACEHOLDERS. Set your own before publishing.
       packages: [
         {
           name: 'One-pager',
-          price: 'from 400 ₼',
+          price: 'from 320 ₼',
           for: 'Salons, cafés, tradespeople, small services',
           items: [
             'One page, everything in one place',
@@ -349,7 +346,7 @@ export const content = {
         },
         {
           name: 'Business site',
-          price: 'from 900 ₼',
+          price: 'from 720 ₼',
           for: 'Clinics, companies, shops, agencies',
           items: [
             '4–6 pages (Home, About, Services, Contact…)',
@@ -364,7 +361,7 @@ export const content = {
         },
         {
           name: 'Online orders',
-          price: 'from 1800 ₼',
+          price: 'from 1440 ₼',
           for: 'Shops, restaurants, bookings',
           items: [
             'Product or menu catalogue',
@@ -386,26 +383,25 @@ export const content = {
       title: 'Brand design, matching the site',
       lede:
         'Plenty of businesses have no logo, or one that looks different everywhere: one way on the site, another on Instagram, a third on the business card. We fix that too — alongside a site or on its own.',
-      // TODO: THESE PRICES ARE PLACEHOLDERS. Set your own before publishing.
       items: [
         {
           name: 'Logo and brand identity',
-          price: 'from 250 ₼',
+          price: 'from 200 ₼',
           body: 'Logo, colour palette and typefaces. Site, business card and social media all look like they come from the same family.',
         },
         {
           name: 'Social media templates',
-          price: 'from 150 ₼',
+          price: 'from 120 ₼',
           body: 'Instagram post and story templates. You get editable files, so you are not going back to a designer for every post.',
         },
         {
           name: 'Print materials',
-          price: 'from 100 ₼',
+          price: 'from 80 ₼',
           body: 'Business cards, menus, flyers, banners, signage. Print-ready files you can send straight to the printer.',
         },
         {
           name: 'Brand guidelines',
-          price: 'from 200 ₼',
+          price: 'from 160 ₼',
           body: 'How the logo should and should not be used, colours, type, spacing — in one document. The brand survives your team changing.',
         },
       ],
